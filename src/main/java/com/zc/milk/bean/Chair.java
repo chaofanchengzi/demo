@@ -1,4 +1,4 @@
-package com.zc.bar.bean;
+package com.zc.milk.bean;
 
 public class Chair {
 
@@ -11,14 +11,6 @@ public class Chair {
      * 颜色
      */
     private String chairColor;
-
-    public Chair(String chairName, String chairColor) {
-        this.chairName = chairName;
-        this.chairColor = chairColor;
-    }
-
-    public Chair() {
-    }
 
     public String getChairName() {
         return chairName;
