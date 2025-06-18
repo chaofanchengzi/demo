@@ -12,6 +12,14 @@ public class Chair {
      */
     private String chairColor;
 
+    public Chair(String chairName, String chairColor) {
+        this.chairName = chairName;
+        this.chairColor = chairColor;
+    }
+
+    public Chair() {
+    }
+
     public String getChairName() {
         return chairName;
     }
